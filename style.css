@@ -46,5 +46,11 @@ body {
     text-align: center;
 }
 
+@media screen and (width < 600px) {
+    #heartLoveChicken {
+        height: 150px;
+        margin-left: 30%;
+    }
+}
 
 

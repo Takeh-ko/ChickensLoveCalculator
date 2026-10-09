@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+* {
+    font-family: "Chewy";
+}
+
+#welcomeHeader {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#heartLoveChicken {
+    height: 150px;
+    margin-left: 45%;
+}
+
+#nameInput {
+    text-align: center;
+
+}
+
+#nameOne {
+    border-radius: 8px;
+}
+
+#nameTwo {
+    border-radius: 8px;
+}
+
+#calculateButton {
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#compatibilityParagraph {
+    font-size: larger;
+}
+
+#secret {
+    margin-top: 1000px;
+    text-align: center;
+}
+
+
+

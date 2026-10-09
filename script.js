@@ -25,7 +25,7 @@ function calculate() {
                     document.getElementById("heartLoveChicken").src = "images/badChicken.png";
                 }
     
-                if (loveCompatibility >= 31 && loveCompatibility <= 70) {
+                if (loveCompatibility >= 31 && loveCompatibility <= 70 && loveCompatibility != 67) {
                     document.getElementById("commentParagraph").innerText = "You and " + nameTwo + " are great for each other! It could still be better but I think you're doing good\n for now! Surprise them with a bucket of KFC and it might just shoot up\n to 101% compatibility!";
                     document.getElementById("heartLoveChicken").src = "images/mediumChicken.jpg";
                 }
@@ -33,6 +33,11 @@ function calculate() {
                 if (loveCompatibility > 70) {
                     document.getElementById("commentParagraph").innerText = "Holy wackadoodle biscuits! You and " + nameTwo + " are absolutely perfect\n for each other! Everybody needs to idolize your compatibility!\n Celebrate with some Kentucky Fried Chicken together! You've earned it.\n🍗";
                     document.getElementById("heartLoveChicken").src = "images/goodChicken.png";
+                }
+
+                if (loveCompatibility == 67) {
+                    document.getElementById("commentParagraph").innerText = "SIIIIX SEVEEEEEEEEEEEEEENNNNNN";
+                    document.getElementById("heartLoveChicken").src = "images/67.jpg";
                 }
             }
         }
